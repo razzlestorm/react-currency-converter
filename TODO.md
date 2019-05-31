@@ -1,5 +1,5 @@
 1. Restrict JSON call to once per hour.
-  1a. Assign fetched JSON data to its own object, THEN to the state (instead of realtime data being fetched on every refresh).
+  1a. Assign fetched JSON data to its own object, THEN to the state (instead of realtime data being fetched on every refresh). <!--- [THIS WAS ACTUALLY DONE USING LOCAL STORAGE] --->
   1b. update object once per hour  https://stackoverflow.com/questions/19847412/call-a-function-every-hour    https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setInterval
 2. Allow users to select currencies that are displayed in an opt-in fashion
   2a. This will probably be with a component that gets the list of currencies from the state in a dropdown table.
